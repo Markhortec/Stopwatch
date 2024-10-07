@@ -1,0 +1,125 @@
+body {
+  background-image: url("/img/3-min_prev_ui.png"), url("/img/3-min_prev_ui.png"),
+    linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red
+    );
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left center, right center, top center;
+  background-size:200px,200px,100%;
+}
+.buttums {
+  display: flex;
+  justify-content: center;
+}
+.stopwatch {
+  margin-top: 1rem;
+  margin-left: 1.24rem;
+  margin-bottom: 1rem;
+}
+.stopwatch button {
+  font-size: 1.27rem;
+  padding: 10px 3rem;
+  background-color: rgba(255, 255, 255, 0.562);
+  border: 1px solid white;
+}
+.stopwatch button a {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+}
+.stopwatch button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.stopwatch button a:hover{
+color: black;
+cursor: pointer;
+}
+#mark {
+  display: flex;
+}
+.morkhor {
+  flex: 90%;
+}
+.logo {
+  flex: 10%;
+}
+.morkhor h2 {
+  font-size: 3.12rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 3.12rem;
+  color: white;
+  text-align: center;
+}
+.logo img {
+  margin-top: 2.2rem;
+  width: 75%;
+  height: auto;
+  margin-left: 2.75rem;
+}
+.logo1 img {
+  display: none;
+  margin-top: 2.2rem;
+  width: 75%;
+  height: auto;
+  margin-left: 2.75rem;
+}
+#main {
+  width: 37%;
+  margin: 8% auto;
+  text-align: center;
+}
+#submain {
+  margin-top: 1rem;
+}
+#submain h1 {
+  font-size: 3.12rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  color: white;
+}
+#submain p {
+  height: 10%;
+  font-size: 2.2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: white;
+}
+#bottommain {
+  display: flex;
+  justify-content: center;
+}
+.stopwaatchbtn {
+  margin-top: 1rem;
+  margin-left: 1.24rem;
+  margin-bottom: 1rem;
+}
+.stopwaatchbtn button {
+  font-size: 1.27rem;
+  padding: 10px 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: rgba(255, 255, 255, 0.562);
+  border: 1px solid white;
+  color: white;
+}
+.stopwaatchbtn button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}

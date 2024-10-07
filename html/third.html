@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markhor-Stopwatches</title>
+
+    <link rel="stylesheet" href="/css/third.css" />
+    <link
+      rel="shortcut icon"
+      href="/img/mar-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <script src="/js/stop.js"></script>
+    <!-- <script src="/js/timer.js"></script> -->
+  </head>
+  <body>
+    <div id="mark">
+      <div class="logo">
+        <img src="/img/9-min (1)_prev_ui.png" alt="" />
+      </div>
+      <div class="logo1">
+        <img src="/img/download-removebg-preview.png" alt="" />
+      </div>
+      <div class="morkhor">
+        <h2>welcome to markhor stopwatches</h2>
+      </div>
+    </div>
+    <div class="buttums">
+      <div class="stopwatch">
+        <button id="btn1">
+          <a href="/html/stopwatch.html">stopwatch 1</a>
+        </button>
+      </div>
+      <div class="stopwatch">
+        <button id="btn2"><a href="/html/second.html">stopwatch 2</a></button>
+      </div>
+      <div class="stopwatch">
+        <button id="btn3"><a href="/html/third.html">stopwatch 3</a></button>
+      </div>
+    </div>
+    <div id="main">
+      <div id="submain">
+        <h1 id="h1">stopwatch</h1>
+        <p>
+          <span id="hour">00</span>:<span id="mints">00</span>:<span
+            id="seconds"
+            >00</span
+          >:<span id="tens">00</span>
+        </p>
+      </div>
+      <div id="bottommain">
+        <div class="stopwaatchbtn">
+          <button id="startbtn" onclick="starter()">start</button>
+        </div>
+        <div class="stopwaatchbtn">
+          <button id="stopbtn" onclick="stop()">stop</button>
+        </div>
+        <div class="stopwaatchbtn">
+          <button id="resetbtn" onclick="reset()">reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
